@@ -2,12 +2,22 @@
 *{
     padding: 0; 
     margin: 0;
+    box-sizing: border-box;
 }
-
+.patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
 
 body{
     background-color: rosybrown;
-}
+    font-family: "Patrick Hand", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    }
+
 
 main{
     display: flex;
@@ -20,7 +30,8 @@ h1{
 
 
 .tarjeta {
-    width: 320px;
+    width: 340px;
+    height: 360px;
     background-color: rgb(0, 255, 106);
     border-radius: 3%;
     /*Centrando elementos*/
@@ -29,8 +40,15 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 8px; 
+    margin: 10px;
+    padding: 12px;
+    border: 3px solid;
     transition: all 0.4s ease-in-out;
+}
+
+.titulo-tarjeta{
+    margin-bottom: 13px;
+
 }
 
 .tarjeta:hover{ 
@@ -49,7 +67,9 @@ h1{
 
 
 .tarjeta img{
-    width: 100%;
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 150ox;
     object-fit: cover;
     border-radius: 5%;
 }
