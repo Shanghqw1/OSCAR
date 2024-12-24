@@ -3,12 +3,14 @@
     padding: 0; 
     margin: 0;
     box-sizing: border-box;
+    color: blue;
 }
+
 .patrick-hand-regular {
     font-family: "Patrick Hand", cursive;
     font-weight: 800;
     font-style: normal;
-  }
+    }
   
 
 body{
@@ -87,3 +89,7 @@ h1{
 #perro{
     color:red;
 }
+/*se utiliza con cuidado*/
+
+
+
